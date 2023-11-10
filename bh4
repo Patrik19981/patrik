@@ -1,0 +1,9 @@
+name : first cd job
+on: [push]
+jobs:
+  PerformCodeAnalysis:
+    runs-on: ubuntu-latest
+    steps:
+      -run echo 'i am going to perform code analysis'
+      -run echo ls -la
+      -run pdw
